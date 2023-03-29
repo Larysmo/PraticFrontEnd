@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  margin: auto;
+}
+
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  background-color: #403f3f;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+a{
+    color: wheat;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+main{
+  display: flex;
+  flex:7; 
+  flex-direction: column;
+  gap: 15px;
+  background-color: #737373;
+  padding: 15px;
+  margin: 15px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  
+  
+}
+
+footer{
+  display: flex;
+  flex:1;
+  background-color: #a9a7a7;
+}
+
+.h-100{
+  Height: 100%;
+}
+
+#logo{
+  margin: 16px;
+  width: 100px;
+  height:100px;
+}
